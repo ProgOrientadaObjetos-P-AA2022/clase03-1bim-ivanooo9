@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paqueteuno;
-
+import paqueteuno;
 /**
  *
  * @author reroes
@@ -12,7 +12,8 @@ package paqueteuno;
 public class Ejecutor {
     public static void main(String[] args) {
         Pelicula p = new Pelicula();
-        p.version = 10;
+        p.version = 11;
+        p.establecerVersion(valor);
         System.out.println(p.version);
     }
 }

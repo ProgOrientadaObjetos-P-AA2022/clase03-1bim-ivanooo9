@@ -11,4 +11,6 @@ package paqueteuno;
  */
 public class Pelicula {
     protected int version;
+    p.version = 10;
+
 }

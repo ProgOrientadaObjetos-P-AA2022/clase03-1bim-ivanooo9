@@ -20,15 +20,25 @@ public class Ejecutable04 {
         double valor1 = 10000;
         double valor2 = 20000;
         double valor3 = 30000;
-        
+
+
         h1.establecerPresupuesto(valor1);
         h2.establecerPresupuesto(valor2);
         h3.establecerPresupuesto(valor3);
-        
+
+        h1.establecerNumerodeCamas(500);
+        h2.establecerNumerodeCamas(1500);
+        h3.establecerNumerodeCamas(1000);
+
         double suma = h1.obtenerPresupuesto() + h2.obtenerPresupuesto() +
                 h3.obtenerPresupuesto();
+
+        int sumac = h1.obtenerNumerodeCamas() + h2.obtenerNumerodeCamas() +
+                h3.obtenerNumerodeCamas();
         
         System.out.printf("La suma de presupuestos es %.2f\n", suma);
+
+        System.out.println("La suma de camas es %.2f\n", sumac);
         
         
     }
